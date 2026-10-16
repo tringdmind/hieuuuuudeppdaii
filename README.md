@@ -50,5 +50,4 @@ Trang web thiệp chúc mừng ngày Phụ nữ Việt Nam 20/10 được thiế
 
 ---
 
-*Chúc hai bạn có một ngày 20/10 thật nhiều niềm vui, ấm áp và sớm ngày đoàn tụ! 💖*
 # hieuuuuudeppdaii
