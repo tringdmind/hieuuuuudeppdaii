@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chúc Mừng Ngọc Linh 💖 20/10 — Minh Hiếu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Dancing+Script:wght@600;700&family=DynaPuff:wght@600;700;800;900&family=Quicksand:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="2010style.css">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💖</text></svg>">
+
+  <!-- Import Map cho Three.js & OpenType.js để dựng chữ 3D Bubble Glass tiếng Việt thật 100% -->
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+      }
+    }
+  </script>
+  <script src="opentype.min.js"></script>
+  <script>
+    if (typeof opentype === 'undefined') {
+      document.write('<script src="https://unpkg.com/opentype.js@1.3.4/dist/opentype.min.js"><\/script>');
+    }
+  </script>
+</head>
+
+<body>
+
+  <!-- Canvas nền cho bóng bay thủy tinh 2D -->
+  <canvas id="balloon-canvas"></canvas>
+
+  <!-- Bright White-Pink Hologram Ambient Layers -->
+  <div class="holo-bg"></div>
+  <div class="holo-shimmer"></div>
+  <div class="holo-orb orb-pink"></div>
+  <div class="holo-orb orb-lavender"></div>
+  <div class="holo-orb orb-pearl"></div>
+
+  <!-- Music toggle button -->
+  <button id="music-toggle" class="glass-pill-btn music-btn" title="Bật/Tắt giai điệu lãng mạn">
+    <span class="music-icon">🎵</span>
+    <span class="music-label">Nhạc nhẹ</span>
+  </button>
+
+  <!-- Page Container -->
+  <main class="page-container">
+
+    <!-- Top Hologram Pill Badge -->
+    <div class="holo-badge rise-up delay-1 float-soft">
+      <span class="badge-sparkle">✨</span>
+      <span>20 · 10 · 2026</span>
+      <span class="badge-sparkle">✨</span>
+    </div>
+
+    <!-- MAIN 3D WEBGL BUBBLE GLASS STAGE (Y hệt bản demo MINH HIẾU) -->
+    <header class="hero-3d-stage rise-up delay-2">
+      <div id="webgl-hero-title" class="webgl-title-container" aria-label="Chúc Mừng Ngày Phụ Nữ Việt Nam - Ngọc Linh">
+        <div class="webgl-loading">Đợi chút nhaa</div>
+      </div>
+      <p class="subtitle-whisper">Dành tặng người con gái anh yêu nhất 💖</p>
+    </header>
+
+    <!-- 3D Frosted Glass Greeting Card -->
+    <article class="frosted-glass-card rise-up delay-4">
+      <div class="card-rainbow-rim"></div>
+
+      <div class="card-content">
+        <div class="card-top-bar">
+          <span class="route-pill">Thái Nguyên ✈️ Ninh Bình</span>
+          <span class="card-date-tag">Tháng 10 yêu thương</span>
+        </div>
+
+        <p class="letter-greeting">Em bé Ngọc Linh của anh,</p>
+
+        <p class="letter-text">
+          Hôm nay là ngày 20/10 — ngày cả thế giới tôn vinh những người phụ nữ tuyệt vời nhất. Nhưng trong lòng anh, mỗi
+          một ngày trôi qua em đều là điều quý giá và đặc biệt nhất cuộc đời này.
+        </p>
+
+        <p class="letter-text">
+          Dù khoảng cách giữa Thái Nguyên và Ninh Bình có thể tính bằng những cây số, nhưng tình cảm và sự nhung nhớ anh
+          dành cho em thì chẳng có thước đo nào đong đếm được. Anh nhớ nụ cười của em, nhớ giọng nói ấm áp và cả những
+          lúc em giận dỗi đáng yêu vô cùng.
+        </p>
+
+        <div class="hologram-quote-box">
+          <span class="quote-icon">❝</span>
+          Em chính là mùa xuân giữa lòng anh — dù ở đâu cũng làm thế giới của anh bừng nở rực rỡ nhất.
+          <span class="quote-icon">❞</span>
+        </div>
+
+        <p class="letter-text">
+          Nhân ngày Phụ nữ Việt Nam, anh chúc Ngọc Linh của anh luôn luôn xinh đẹp, an yên, mỉm cười thật nhiều và luôn
+          nhớ rằng: dù cách xa hay ở ngay cạnh bên, anh sẽ luôn là điểm tựa ấm áp nhất của em.
+        </p>
+
+        <p class="love-promise">
+          Yêu em thật nhiều, nhớ em từng giây phút! 💕
+        </p>
+
+        <div class="signature-block">
+          <span class="sig-pre">Mãi yêu em,</span>
+          <!-- Khung 3D WebGL cho chữ ký MINH HIẾU -->
+          <div id="webgl-sig-title" class="webgl-sig-container" aria-label="Minh Hiếu"></div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Interactive Button -->
+    <div class="action-container rise-up delay-5">
+      <button class="glasstic-action-btn" id="kiss-button">
+        <span class="btn-glint"></span>
+        <span class="btn-content">💋 Gửi ngàn nụ hôn & bóng bay đến Linh</span>
+      </button>
+    </div>
+
+    <!-- Footer Note (Giữ nguyên nguyên bản của cậu) -->
+    <footer class="romantic-footer rise-up delay-6">
+      <p>Được tạo ra từ trái tim anh người yêu không phải 1m8 🕊️🌸</p>
+    </footer>
+
+  </main>
+
+  <!-- Flying hearts and bubble bursts layer -->
+  <div id="flying-elements-layer"></div>
+
+  <script type="module" src="setting.js"></script>
+</body>
+
+</html>
