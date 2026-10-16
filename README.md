@@ -7,21 +7,12 @@ Trang web thiệp chúc mừng ngày Phụ nữ Việt Nam 20/10 được thiế
 ## ✨ Điểm Nổi Bật
 
 1. **Giao diện Hologram Hồng Tím Thơ Mộng**:
-   - Hiệu ứng ánh sáng hologram chuyển màu lấp lánh (Iridescent Mesh Gradients).
-   - Glassmorphism mờ ảo cao cấp kết hợp viền sáng neon tinh tế.
-   - Bầu trời sao và trái tim bay lượn trên nền Canvas sống động.
 
 2. **Font chữ Bubble đáng yêu**:
-   - Kết hợp hoàn hảo giữa font bong bóng hiện đại (*Fredoka*, *Baloo 2*) và nét viết tay uốn lượn lãng mạn (*Dancing Script*).
 
 3. **Chuyển động phong thư 3D chân thực**:
-   - Phong thư tình yêu với con dấu sáp trái tim hologram phát sáng nhịp đập.
-   - Khi chạm vào, nắp phong thư mở ra mượt mà và lá thư trượt lên kèm hiệu ứng pháo hoa trái tim bay rực rỡ.
 
 4. **Cầu nối tình yêu phương xa (Distance Bridge)**:
-   - Hiển thị khoảng cách địa lý (ví dụ: Hà Nội ✈️ Sài Gòn, 1,720 km).
-   - Chiếc máy bay và những vệt sáng tình yêu bay qua lại liên tục.
-   - Nhắc nhở: *"Khoảng cách địa lý = 1,720 km | Khoảng cách trái tim = 0 cm"*.
 
 5. **5 Chuyên mục trải nghiệm ngọt ngào (Tabs)**:
    - 📜 **Thư tay 20/10**: Những dòng tâm sự chân thành, xúc động; có nút bấm đọc thư bằng giọng nói và nút gửi ngàn nụ hôn bay lơ lửng.
